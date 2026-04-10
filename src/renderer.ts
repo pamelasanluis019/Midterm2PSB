@@ -215,8 +215,8 @@ export class Renderer {
   getEye(): Vec3 {
     const rotMat = mat4.fromQuat(this.camQuat);
     const dir: Vec3 = [
-      rotMat[2] * this.camDistance,
-      rotMat[6] * this.camDistance,
+      rotMat[8] * this.camDistance,
+      rotMat[9] * this.camDistance,
       rotMat[10] * this.camDistance,
     ];
     return vec3.add(this.camTarget, dir);
