@@ -1,5 +1,4 @@
-// ── Arcball Controls ──────────────────────────────────────────────────────────
-// Reference: http://courses.cms.caltech.edu/cs171/assignments/hw3/hw3-notes/notes-hw3.html
+
 
 import { quat, vec3, mat4, type Vec3, type Vec4 } from './math';
 import type { Renderer } from './renderer';
