@@ -22,7 +22,7 @@ const modeDescs: Record<number, string> = {
   6: 'Texture: spherical UV texture mapping with diffuse lighting.',
 };
 
-// ── Resize handler ───────────────────────────────────────────────────────────
+// ── Resize handler s
 function resizeCanvas() {
   const container = canvas.parentElement!;
   const w = container.clientWidth * devicePixelRatio;
@@ -32,7 +32,7 @@ function resizeCanvas() {
   }
 }
 
-// ── UI helpers ───────────────────────────────────────────────────────────────
+// ── UI helpers 
 function setStatus(msg: string) { status.textContent = msg; }
 
 function updateSceneList() {
